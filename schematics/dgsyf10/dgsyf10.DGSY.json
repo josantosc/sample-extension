@@ -1,0 +1,94 @@
+{
+  "identifier" : "DGSY",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "avoidMemoryLeaks" : true,
+      "dialogs" : [ ],
+      "disableDeveloperBar" : false,
+      "experimentalFeatures" : { },
+      "externalAccessItens" : {
+        "ALL_FEATURES" : [ ],
+        "SPOTLIGHT_FEATURES" : [ ]
+      },
+      "externalAcessModal" : false,
+      "featureCode" : 99683,
+      "globalPopups" : [ ],
+      "metadataToFile" : true,
+      "noDataExpressionCode" : 397569,
+      "children" : [ {
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "children" : [ ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 109694741,
+              "componentType" : "WCPANEL",
+              "customProperties" : {
+                "showDynamicReport" : "N"
+              },
+              "description" : "Autorizações",
+              "dictionaryCode" : 109707648,
+              "displayOrder" : 1,
+              "legends" : [ ],
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ ],
+              "parentObjectCode" : 109665760,
+              "properties" : {
+                "autoCreateChild" : true,
+                "editableGrid" : false,
+                "emptyActivation" : false,
+                "multiSelection" : false,
+                "paginationType" : "P",
+                "reportConfigVisible" : false,
+                "saveGridColumnOrder" : false,
+                "selectFirstRow" : true,
+                "unificarCountRegistros" : false,
+                "useNewGrid" : true
+              },
+              "reports" : [ ]
+            } ],
+            "code" : 109665760,
+            "description" : "Region 0",
+            "displayOrder" : 1,
+            "objectType" : "REGION",
+            "parentObjectCode" : 109665759
+          } ],
+          "code" : 109665759,
+          "description" : "Master region",
+          "masterRegionType" : "LAYOUT_A",
+          "objectType" : "MASTER_REGION",
+          "parentObjectCode" : 109654149
+        } ],
+        "code" : 109654149,
+        "description" : "Panel",
+        "displayOrder" : 1,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "objectType" : "PANEL",
+        "panelWidth" : 6,
+        "parentObjectCode" : 755109629
+      }, {
+        "children" : [ ],
+        "code" : 109654150,
+        "description" : "Panel",
+        "displayOrder" : 2,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "objectType" : "PANEL",
+        "panelWidth" : 6,
+        "parentObjectCode" : 755109629
+      } ],
+      "code" : 755109629,
+      "componentType" : "WSCH",
+      "description" : "Schematic - 12",
+      "objectType" : "SCHEMATIC",
+      "parentObjectCode" : 0,
+      "schematicFeatureCode" : 755109629,
+      "version" : "1.7.0"
+    }
+  } ],
+  "type" : "PARTNER"
+}
