@@ -30,7 +30,7 @@
         "initialFocus" : false,
         "label" : "Insurance",
         "labelExpressionCode" : 286193,
-        "largura" : 2,
+        "largura" : 10,
         "leftAnchored" : false,
         "lineBreak" : false,
         "mandatory" : false,

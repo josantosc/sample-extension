@@ -21,7 +21,32 @@
         "children" : [ {
           "children" : [ {
             "children" : [ {
-              "children" : [ ],
+              "children" : [ {
+                "children" : [ ],
+                "cmdkMetadataCustomization" : false,
+                "code" : 112276106,
+                "componentType" : "WFILTRO",
+                "customProperties" : {
+                  "enableMultiFilters" : "N"
+                },
+                "description" : "Localizar convênio",
+                "dictionaryCode" : 111830596,
+                "experimentalFeatures" : {
+                  "experimentalForm" : false
+                },
+                "metadataFile" : true,
+                "objectType" : "COMPONENT",
+                "params" : [ ],
+                "parentObjectCode" : 109694741,
+                "properties" : {
+                  "closeAfterSearch" : false,
+                  "lazyLoadDetail" : false,
+                  "modal" : false,
+                  "openOnShow" : true,
+                  "orientation" : "TOP",
+                  "responsive" : false
+                }
+              } ],
               "cmdkMetadataCustomization" : false,
               "code" : 109694741,
               "componentType" : "WCPANEL",
@@ -54,7 +79,8 @@
             "description" : "Region 0",
             "displayOrder" : 1,
             "objectType" : "REGION",
-            "parentObjectCode" : 109665759
+            "parentObjectCode" : 109665759,
+            "tabGroupSelection" : false
           } ],
           "code" : 109665759,
           "description" : "Master region",
@@ -71,7 +97,104 @@
         "panelWidth" : 6,
         "parentObjectCode" : 755109629
       }, {
-        "children" : [ ],
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "checkParentsRelease" : false,
+              "children" : [ ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 114910209,
+              "componentType" : "WDBPANEL",
+              "crudRules" : [ ],
+              "customProperties" : {
+                "allowBatchSignature" : "N",
+                "showDynamicReport" : "N",
+                "withoutCache" : "N"
+              },
+              "description" : "Histórico de autorização - Joe",
+              "displayOrder" : 1,
+              "isMaster" : false,
+              "legends" : [ ],
+              "masterObjectCode" : 0,
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ {
+                "code" : 115354952,
+                "criteria" : 115039193,
+                "function" : 0,
+                "masterCode" : 109694741,
+                "masterName" : "NR_SEQUENCIA",
+                "originParam" : "OBJECT",
+                "parameterCode" : 0,
+                "parameterName" : "NR_SEQ_AUTORIZACAO",
+                "parameterSeq" : 1,
+                "parentObjectCode" : 114910209
+              }, {
+                "code" : 115412270,
+                "criteria" : 115039193,
+                "function" : 0,
+                "masterCode" : 109694741,
+                "masterName" : "NR_SEQUENCIA",
+                "originParam" : "OBJECT",
+                "parameterCode" : 0,
+                "parameterName" : "NR_SEQ_AUTORIZACAO",
+                "parameterSeq" : 2,
+                "parentObjectCode" : 114910209
+              }, {
+                "code" : 115441392,
+                "criteria" : 115039193,
+                "function" : 0,
+                "masterName" : "",
+                "originParam" : "OBJECT",
+                "parameterCode" : 0,
+                "parameterName" : "PARAM_4",
+                "parameterSeq" : 3,
+                "parentObjectCode" : 114910209
+              } ],
+              "parentObjectCode" : 114329034,
+              "properties" : {
+                "action" : "",
+                "activateOnDetail" : false,
+                "autoCreateChild" : false,
+                "cacheDetailViews" : false,
+                "checkReportRelease" : true,
+                "confirmReleaseRecord" : false,
+                "destroyDetail" : false,
+                "editableGrid" : false,
+                "emptyActivation" : false,
+                "gridWhenSave" : true,
+                "lazyLoadDetail" : false,
+                "multiSelection" : false,
+                "onlyDetail" : false,
+                "pageSize" : 0,
+                "paginationType" : "P",
+                "qtMaxRecord" : 0,
+                "readOnlyType" : "N",
+                "reportConfigVisible" : false,
+                "responsive" : false,
+                "saveGridColumnOrder" : false,
+                "selectFirstRow" : false,
+                "unificarCountRegistros" : true,
+                "useNewGrid" : true,
+                "usePagination" : true
+              },
+              "reports" : [ ],
+              "signatureConfigured" : false,
+              "viewActivator" : 115039193,
+              "viewCode" : 114634151
+            } ],
+            "code" : 114329034,
+            "description" : "Region 0",
+            "displayOrder" : 1,
+            "objectType" : "REGION",
+            "parentObjectCode" : 114329033
+          } ],
+          "code" : 114329033,
+          "description" : "Master region",
+          "masterRegionType" : "LAYOUT_A",
+          "objectType" : "MASTER_REGION",
+          "parentObjectCode" : 109654150
+        } ],
         "code" : 109654150,
         "description" : "Panel",
         "displayOrder" : 2,
